@@ -1,0 +1,113 @@
+.bg-destinations {
+    background: rgba(0, 0, 0, 0.5) url(../images/Banner2.jpg);
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.page-destinations .block-destinations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.page-destinations .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 30px 60px;
+    padding: 10px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.25s;
+}
+
+.page-destinations article:hover {
+    background-color: rgba(235, 230, 230, 0.42);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+    transform: translateY(-25px)
+}
+
+.page-destinations .image {
+    width: 300px;
+    padding: 5px;
+}
+
+.page-destinations .image img {
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+}
+
+.page-destinations .image img:hover {
+    opacity: .8;
+}
+
+.page-destinations .content {
+    width: 403px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.destinations-intro {
+    margin: 35px auto 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.destinations-intro h2 {
+    color: #2d90bb;
+    font-size: 53px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+}
+
+.destinations-intro p {
+    font-size: 22px;
+    line-height: 1.6;
+    max-width: 965px;
+    color: black;
+    font-weight: 500;
+}
+
+.page-destinations .block-destinations h2 {
+    font-size: 26px;
+    margin-top: 10px;
+    color: #02638d;
+}
+
+.page-destinations .block-destinations p {
+    width: 93%;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.3;
+    margin: 20px 15px;
+}
+
+.page-destinations .content a {
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #1c7499;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #1c7499;
+    font-weight: 550;
+    transition: all 0.5s ease 0s;
+}
+
+.page-destinations .content a:hover {
+    color: white;
+    background-color: #1c7499;
+}

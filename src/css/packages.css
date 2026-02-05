@@ -1,0 +1,128 @@
+.bg-packages {
+    background: rgba(0, 0, 0, 0.4) url(../images/paquetesimagenes1.jpeg);
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.page-packages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-packages>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.page-packages>div>h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    font-weight: 800;
+    color: #488eac;
+}
+
+.page-packages>div p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    width: 65%;
+    line-height: 1.6;
+}
+
+.page-packages .photo {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 40px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.page-packages .photo:hover {
+    opacity: .85;
+}
+
+.page-packages .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 25px 70px;
+}
+
+.page-packages .card {
+    width: 365px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    margin: 40px;
+    transition: all 0.25s;
+}
+
+.page-packages .card:hover {
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+    transform: translateY(-25px)
+}
+
+.page-packages .cards-container img {
+    width: 100%;
+    height: 280px;
+    padding: 16px;
+    border-radius: 25px;
+    transition: all 0.5s ease 0s;
+}
+
+.page-packages .card img:hover {
+    opacity: .84;
+}
+
+.page-packages .package-content {
+    padding: 16px 18px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.package-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #02638d;
+}
+
+.package-content p {
+    font-size: 17px;
+    line-height: 1.3;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.package-content a {
+    display: inline-block;
+    padding: 8px 30px;
+    text-decoration: none;
+    border: 1px solid #1c7499;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #1c7499;
+    font-weight: 550;
+    transition: all 0.5s ease 0s;
+}
+
+.package-content a:hover {
+    color: white;
+    background-color: #1c7499;
+}

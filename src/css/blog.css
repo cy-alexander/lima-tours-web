@@ -1,0 +1,138 @@
+.bg-blog {
+    background: rgba(0, 0, 0, 0.6) url(../images/miraflores3.png);
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.page-blog>h2 {
+    color: #3a90b4;
+    font-size: 45px;
+    font-weight: 800;
+    padding: 40px 50px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.page-blog .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0px;
+}
+
+.page-blog .container1 {
+    margin: 30px auto;
+    display: flex;
+    max-width: 840px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page-blog .image {
+    max-width: 100%;
+}
+
+.page-blog .image img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.page-blog .image img:hover {
+    opacity: 0.85;
+}
+
+.page-blog .container1 .content {
+    width: 90%;
+}
+
+.container1 .content h2 {
+    margin: 10px 0;
+    color: #0f4861;
+}
+
+.container1 .content ul {
+    margin: 20px 0px;
+}
+
+.container1 .content ul li {
+    margin: 10px 0px;
+    font-size: 19px;
+    margin-left: 12px;
+    text-align: justify;
+}
+
+.container1 .content i {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.container1 .content p {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.page-blog .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 41px;
+}
+
+.page-blog .container2 h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #0c2f5c;
+}
+
+.page-blog .container2 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 13px 0px;
+}
+
+.page-blog .text {
+    width: 400px;
+    padding: 10px 25px 25px 25px
+}
+
+.page-blog .text>p {
+    padding: 20px 0px;
+}
+
+.page-blog .text i {
+    display: flex;
+    align-items: center;
+}
+
+.page-blog .text i p {
+    margin-left: 10px;
+}
+
+.page-blog .photo {
+    max-width: 400px;
+}
+
+.page-blog .photo img {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.page-blog .photo img:hover {
+    opacity: 0.8;
+}

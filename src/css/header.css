@@ -1,0 +1,91 @@
+.bg-catedral-lima {
+    background: rgba(0, 0, 0, 0.5) url(../images/imagen7.png);
+}
+
+.bg-circuito-magico {
+    background: rgba(0, 0, 0, 0.5) url(../images/circuito.jpg);
+}
+
+.bg-miraflores {
+    background: rgba(0, 0, 0, 0.4) url(../images/mirafloresbanner.avif);
+}
+
+.bg-museo-larco {
+    background: rgba(0, 0, 0, 0.4) url(../images/museolarcobanner.avif);
+}
+
+.bg-plaza-armas {
+    background: rgba(0, 0, 0, 0.4) url(../images/plazabanner.jpg);
+}
+
+.bg-plaza-san-martin {
+    background: rgba(0, 0, 0, 0.4) url(../images/plazasanmartinbanner.jpg);
+}
+
+.bg-tourism-cultural {
+    background: rgba(0, 0, 0, 0.5) url(../images/paquetecultural.jpg);
+}
+
+.bg-tourism-luxury {
+    background: rgba(0, 0, 0, 0.5) url(../images/paquetelujo.jpg);
+}
+
+.bg-tourism-nocturnal {
+    background: rgba(0, 0, 0, 0.5) url(../images/paquetenocturno.png);
+}
+
+.cabecera {
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.encabezado {
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.encabezado h1 {
+    font-size: 75px;
+    font-weight: 850;
+    letter-spacing: 5.5px;
+    padding: 20px;
+}
+
+.encabezado p {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5;
+    width: 75%;
+}
+
+.encabezado--normal {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.encabezado--compacto {
+    width: 62%;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .cabecera {
+        height: 600px;
+    }
+
+    .encabezado h1 {
+        font-size: 45px;
+    }
+
+    .encabezado p {
+        font-size: 18px;
+    }
+}

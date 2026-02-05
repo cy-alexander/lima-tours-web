@@ -1,0 +1,47 @@
+.page-tourism-cultural .data {
+    background-color: #984007;
+}
+
+.page-tourism-cultural .button {
+    background-color: #984007;
+}
+
+.page-tourism-cultural .data button:hover {
+    color: #984007;
+}
+
+.page-tourism-cultural .text h2 {
+    color: #8b2901;
+}
+
+.page-luxury-package .data {
+    background-color: #a34b73;
+}
+
+.page-luxury-package .data button {
+    background-color: #a34b73;
+}
+
+.page-luxury-package .data button:hover {
+    color: #a34b73;
+}
+
+.page-luxury-package .text h2 {
+    color: #7e3b57;
+}
+
+.page-night-package .data {
+    background-color: #033997;
+}
+
+.page-night-package .data button {
+    background-color: #033997;
+}
+
+.page-night-package .data button:hover {
+    color: #033997;
+}
+
+.page-night-package .text h2 {
+    color: #033997;
+}

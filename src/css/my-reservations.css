@@ -1,0 +1,146 @@
+.page-my-reservations {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5) url(../images/my-reservations.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.reservations-header h1 {
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.user-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-info p {
+    color: #b5b5b5;
+    font-size: 14px;
+}
+
+.cuadro-my-reservations {
+    background: rgba(20, 20, 20, 0.85);
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 1200px;
+    max-height: 60vh;
+    margin: 30px auto;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #eaeaea;
+    background: transparent;
+}
+
+thead th {
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: #aaaaaa;
+    padding: 12px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tbody td {
+    padding: 14px 10px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.reservation-row:hover {
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.status-badge.confirmed {
+    color: #4ade80;
+    font-weight: 500;
+}
+
+.status-badge.cancelled {
+    color: #f87171;
+    font-weight: 500;
+}
+
+.btn-cancel {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #f87171;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+
+.btn-cancel:hover {
+    background: rgba(248, 113, 113, 0.1);
+}
+
+.table-footer {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.btn-new-reservation {
+    background: rgba(255, 255, 255, 0.1);
+    color: #eaeaea;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.btn-new-reservation:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.no-reservations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    color: #d1d1d1;
+}
+
+.no-reservations h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.no-reservations p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #b5b5b5;
+}
+
+.no-reservations .boton {
+    background: rgba(255, 255, 255, 0.12);
+    color: #f1f1f1;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.no-reservations .boton:hover {
+    background: rgba(255, 255, 255, 0.22);
+    transform: translateY(-1px);
+}

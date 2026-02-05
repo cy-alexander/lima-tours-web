@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 0;
+}
+
+.menu ul li {
+    align-items: center;
+    margin: 3px 0;
+}
+
+.menu ul li a {
+    align-items: center;
+    margin: 0 20px;
+}
+
+.menu>ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 22px;
+    font-weight: 550;
+    margin: 0 30px;
+    transition: all 0.5s ease 0s;
+}
+
+.seccion:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.user i {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: lighter;
+    transition: 0.6s;
+}
+
+.user i:hover {
+    color: rgb(255, 255, 255);
+}
+
+.login {
+    border: 1px solid rgba(255, 255, 255, 0.678);
+    border-radius: 18px;
+    padding: 7px 18px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 19px;
+    font-weight: 550;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+}
+
+.login:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+/* Usuario logueado */
+.user-email {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.logout-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.85);
+    padding: 6px 14px;
+    border-radius: 14px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.logout-btn:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}

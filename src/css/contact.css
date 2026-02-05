@@ -1,0 +1,85 @@
+.bg-contact {
+    background: rgba(0, 0, 0, 0.6) url(../images/contacto.jpeg);
+    height: 780px;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.page-contact section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.page-contact section>h2 {
+    color: #488eac;
+    font-size: 50px;
+    width: 75%;
+    text-align: center;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.page-contact section>p {
+    width: 65%;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.page-contact section .contact-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.page-contact .contact-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.page-contact .contact-block>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 80px;
+}
+
+.contact-block>div i {
+    font-size: 100px;
+    color: #287b9e;
+    transition: 0.5s;
+}
+
+.contact-block>div i:hover {
+    opacity: 0.8;
+}
+
+.page-contact .youtube .contact-info {
+    margin: 25px;
+}
+
+.page-contact .correo .contact-info {
+    width: 185px;
+}
+
+.page-contact .contact-info {
+    margin: 10px;
+}
+
+.contact-info h3 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.page-contact .contact p {
+    margin: 10px;
+    font-size: 20px;
+}

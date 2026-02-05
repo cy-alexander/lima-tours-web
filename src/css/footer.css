@@ -1,0 +1,119 @@
+.pie {
+    background: rgba(22, 22, 22, 0.75) url("../images/fondopie.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 100%;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img,
+.pie img {
+    margin-bottom: 20px;
+    max-width: 80px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.opciones li {
+    list-style: none;
+}
+
+.opciones a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 15px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+
+.opciones a:hover {
+    opacity: 1;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 5px;
+    padding: 0;
+}
+
+.iconos li {
+    list-style: none;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 32px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+}
+
+.pie p {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 18px;
+    opacity: 0.85;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+    .opciones a {
+        font-size: 18px;
+        margin: 5px 10px;
+    }
+
+    .icon {
+        font-size: 28px;
+    }
+
+    .pie p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pie {
+        padding: 40px 20px;
+    }
+
+    .opciones {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .opciones a {
+        font-size: 16px;
+    }
+
+    .icon {
+        font-size: 26px;
+        margin: 5px;
+    }
+
+    .pie p {
+        font-size: 15px;
+    }
+}
