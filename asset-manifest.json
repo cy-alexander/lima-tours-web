@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lima-tours-web/static/css/main.b0dc08ae.css",
-    "main.js": "/lima-tours-web/static/js/main.3689c5c3.js",
+    "main.js": "/lima-tours-web/static/js/main.3a021804.js",
     "static/media/contacto.jpeg": "/lima-tours-web/static/media/contacto.e28cc76c36ba6303e38f.jpeg",
     "static/media/blog3.png": "/lima-tours-web/static/media/blog3.5e5164f917d37536eda3.png",
     "static/media/sanmartin3.jpg": "/lima-tours-web/static/media/sanmartin3.c8679c629eb397722e68.jpg",
@@ -91,10 +91,10 @@
     "static/media/catedral5.jpeg": "/lima-tours-web/static/media/catedral5.ef7cf034ab21e58eb752.jpeg",
     "index.html": "/lima-tours-web/index.html",
     "main.b0dc08ae.css.map": "/lima-tours-web/static/css/main.b0dc08ae.css.map",
-    "main.3689c5c3.js.map": "/lima-tours-web/static/js/main.3689c5c3.js.map"
+    "main.3a021804.js.map": "/lima-tours-web/static/js/main.3a021804.js.map"
   },
   "entrypoints": [
     "static/css/main.b0dc08ae.css",
-    "static/js/main.3689c5c3.js"
+    "static/js/main.3a021804.js"
   ]
 }
