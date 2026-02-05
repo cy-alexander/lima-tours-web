@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import Layout from './components/Layout';
 
@@ -28,7 +28,7 @@ import './App.css';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <HashRouter>
         <Routes>
           <Route path="/" element={
             <Layout
@@ -207,7 +207,7 @@ function App() {
           } />
 
         </Routes>
-      </Router>
+      </HashRouter>
     </AuthProvider>
   );
 }
